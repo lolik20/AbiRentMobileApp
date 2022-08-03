@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbiRent.MainPage"
+             >
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Spacing="10" x:Name="main" >
+                <Label Text="Выберите город" VerticalOptions="Center" FontFamily="Poppins" HorizontalOptions="Center" Margin="20" TextColor="Black" FontAttributes="Bold" FontSize="20"></Label>
+                
+                <!--<Frame CornerRadius="10" Margin="20,0,20,0">
+                    <Frame.GestureRecognizers >
+                        <TapGestureRecognizer CommandParameter="Alanya" Tapped="GoTo"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Horizontal" Padding="0">
+                        <Label Text="Alanya" FontFamily="Poppins" FontSize="20" HorizontalOptions="Start" TextColor="Black" VerticalOptions="Center"   ></Label>
+                        <Image Source="Vector.png" HorizontalOptions="EndAndExpand"  VerticalOptions="Center"></Image>
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10" Margin="20,0,20,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="GoTo"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Horizontal" Padding="0">
+                        <Label Text="Alanya" FontFamily="Poppins" FontSize="20" HorizontalOptions="Start" TextColor="Black" VerticalOptions="Center"   ></Label>
+                        <Image Source="Vector.png" HorizontalOptions="EndAndExpand"  VerticalOptions="Center"></Image>
+                    </StackLayout>
+                </Frame>
+                <Frame CornerRadius="10" Margin="20,0,20,0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="GoTo"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Horizontal" Padding="0">
+                        <Label Text="Alanya" FontFamily="Poppins" FontSize="20" HorizontalOptions="Start" TextColor="Black" VerticalOptions="Center"   ></Label>
+                        <Image Source="Vector.png" HorizontalOptions="EndAndExpand"  VerticalOptions="Center"></Image>
+                    </StackLayout>
+                </Frame>-->
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

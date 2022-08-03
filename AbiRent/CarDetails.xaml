@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AbiRent.CarDetails">
+    <ContentPage.Content>
+
+        <StackLayout >
+            <StackLayout Orientation="Vertical" Margin="20"  VerticalOptions="Start" Spacing="15">
+                <Label Text="EGEA" FontAttributes="Bold" TextColor="Black" FontFamily="Poppins"  FontSize="28"></Label>
+                <Label Text="Fiat" TextColor="#596474" FontFamily="Poppins"  FontSize="14"></Label>
+                <Image Source="image.png" WidthRequest="436" HeightRequest="180"></Image>
+                <Label Text="Specifications" FontAttributes="Bold" TextColor="Black" FontFamily="Poppins"  FontSize="18"></Label>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Frame CornerRadius="10" BorderColor="#94A1B2" HasShadow="False" Padding="2" WidthRequest="76" HeightRequest="76">
+                        <StackLayout Orientation="Vertical">
+                            <Image Source="batteryIcon.png" HorizontalOptions="Start" Margin="5,5,0,0"></Image>
+                            <Label Text="Hourse Power" FontAttributes="Bold" Margin="5,0,0,0" FontSize="10"></Label>
+                            <Label Text="320 hp" FontSize="10" TextColor="Black" Margin="5,0,0,0"></Label>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame CornerRadius="10" BorderColor="#94A1B2" HasShadow="False" Padding="2" WidthRequest="76" HeightRequest="76">
+                        <StackLayout Orientation="Vertical">
+                            <Image Source="fuelIcon.png" HorizontalOptions="Start" Margin="5,5,0,0"></Image>
+                            <Label Text="Расход" FontAttributes="Bold" Margin="5,0,0,0" FontSize="10"></Label>
+                            <Label Text="20l/100km" FontSize="10" TextColor="Black" Margin="5,0,0,0"></Label>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame CornerRadius="10" BorderColor="#94A1B2" HasShadow="False" Padding="2" WidthRequest="76" HeightRequest="76">
+                        <StackLayout Orientation="Vertical">
+                            <Image Source="speedIcon.png" HorizontalOptions="Start" Margin="5,5,0,0"></Image>
+                            <Label Text="Hourse Power" FontAttributes="Bold" Margin="5,0,0,0" FontSize="10"></Label>
+                            <Label Text="2.6 sec" FontSize="10" TextColor="Black" Margin="5,0,0,0"></Label>
+
+                        </StackLayout>
+                    </Frame>
+                    <Frame CornerRadius="10" BorderColor="#94A1B2" HasShadow="False" Padding="2" WidthRequest="76" HeightRequest="76">
+                        <StackLayout Orientation="Vertical">
+                            <Image Source="maxSpeedIcon.png" HorizontalOptions="Start" Margin="5,5,0,0"></Image>
+                            <Label Text="Max Speed" FontAttributes="Bold" Margin="5,0,0,0" FontSize="10"></Label>
+                            <Label Text="100 kmh" FontSize="10" TextColor="Black" Margin="5,0,0,0"></Label>
+
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <Label Text="Car Features" FontAttributes="Bold" TextColor="Black" FontFamily="Poppins"  FontSize="18"></Label>
+                <StackLayout Orientation="Horizontal" Spacing="10">
+
+                    <StackLayout Orientation="Vertical" Spacing="10">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="peopleGreenIcon.png"></Image>
+                            <Label FontFamily="Poppins"  TextColor="Black" Text="2 Passengers"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="snowIcon.png"></Image>
+                            <Label  FontFamily="Poppins" TextColor="Black"  Text="Snow tires"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="bluetoothIcon.png"></Image>
+                            <Label FontFamily="Poppins"  TextColor="Black"  Text="Bluetooth"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Margin="60,0,0,0" Spacing="10">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="doorGreenIcon.png"></Image>
+                            <Label FontFamily="Poppins"  TextColor="Black"  Text="4 Doors"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="gpsIcon.png"></Image>
+                            <Label FontFamily="Poppins"  TextColor="Black"  Text="GPS"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="manualIcon.png"></Image>
+                            <Label FontFamily="Poppins" TextColor="Black"  Text="Manual"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+            <StackLayout VerticalOptions="EndAndExpand" BackgroundColor="Black">
+                <StackLayout Margin="20"  Orientation="Horizontal" >
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Start" >
+                        <Label TextColor="#94A1B2" Text="Цена" FontSize="14"></Label>
+                        <Label  Text="250$/сутки" FontSize="18" TextColor="White"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" Margin="120,0,0,0" HorizontalOptions="End" >
+                        <Frame CornerRadius="10" HasShadow="False" Padding="0">
+                            <Button TextColor="White" Text="Арендовать" BackgroundColor="#01d28e"></Button>
+                        </Frame>
+                    </StackLayout>
+
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
